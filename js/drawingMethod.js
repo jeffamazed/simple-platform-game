@@ -123,7 +123,7 @@ CanvasDisplay.prototype.syncState = function (state) {
 CanvasDisplay.prototype.updateViewport = function (state) {
   let view = this.viewport;
   let marginX = view.width / 3;
-  let marginY = view.height / 5;
+  let marginY = view.height / 4;
   let player = state.player;
   let center = player.pos.plus(player.size.times(0.5));
 
